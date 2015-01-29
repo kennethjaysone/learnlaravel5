@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class PagesController extends Controller {
 
 	public function contact() {
-		return 'Kenneth';
+		return View::make('pages.contact');
 	}
 
 }

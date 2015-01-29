@@ -24,3 +24,4 @@ Route::get('/contact', [
 	'uses' => 'PagesController@contact',
 	'as' => 'contact'
 ]);
+
