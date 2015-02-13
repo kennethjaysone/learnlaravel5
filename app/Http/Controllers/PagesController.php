@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller {
 
+	public function home() {
+
+		$data['pageTitle'] = 'Learning Laravel 5';
+
+		return view('pages.home', $data);
+	}
+
 	public function about() {
 
 		$data['name'] = 'Kenneth';
